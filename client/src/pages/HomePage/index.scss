@@ -1,0 +1,30 @@
+#home-page{
+    background-image: url("https://preview.colorlib.com/theme/selling/images/hero_2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 19rem;
+    
+    .home-page{
+        p{
+            color: white;
+        }
+  
+         h1 {
+            font-size: 5rem;
+            display: flex;
+            flex-direction: column;
+            color: white;
+         }
+  
+         .shop{
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            border: none;
+  
+         }
+  
+  
+    }
+  }

@@ -1,0 +1,115 @@
+
+header{
+  width: 100%;
+
+  .header-top{
+      width: 100%;
+      background-color: #F8F9FA;
+
+      .top-inner{
+          width: 100%;
+          padding: 20px 0;
+  
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+  
+          .icons{
+              display: flex;
+              align-items: center;
+              gap: 0 10px;
+  
+              span{
+                  display: block;
+                  width: 34px;
+                  height: 34px;
+                  border-radius: 100%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  background-color: #000;
+                  transition: all 0.3s;
+
+              &:hover .icon{
+                  color: red;
+              }
+  
+                  a{
+                      .icon{
+                          color: #fff;
+                          font-size: 14px;
+                          margin: 0;
+                      }
+                  }
+              }
+          }
+
+          .connect{
+              display: flex;
+              align-items: center;
+              gap: 0 10px;
+
+              p{
+                  display: flex;
+                  align-items: center;
+                  gap: 0 5px;
+
+                  a{
+                      font-size: 16px;
+                  font-family: "Mulish";
+                  color: #000;
+                  font-weight: 500;
+                  }
+                  .connect-icon{
+                      color: #E0AD78;
+                  }
+              }
+          }
+      }
+  }
+
+  .header-inner{
+      width: 100%;
+      padding: 20px 0;
+      position: sticky;
+      top: 0;
+      .navbar{
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          .logo{
+              color: #000;
+              font-weight: 800;
+              font-family: "mulish";
+              font-size: 40px;
+              span{
+                  color: red;
+              }
+          }
+
+          nav{
+              ul{
+                  display: flex;
+                  align-items: center;
+                  gap: 0 40px;
+
+                  li{
+                      a{
+                          color: #000;
+                          font-family: "mulish";
+                          font-weight: 400;
+                          font-size: 16px;
+                          transition: all 0.3s;
+
+                          &:hover{
+                              color: #E0AD78;
+                          }
+                      }
+                  }
+              }
+          }
+      }
+  }
+}
